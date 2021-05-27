@@ -24,7 +24,6 @@ public class BishopBlackTest {
         BishopBlack bishopBlack = new BishopBlack(Cell.D4);
         Cell dest = Cell.G7;
         Assert.assertTrue(bishopBlack.isDiagonal(bishopBlack.position(), dest));
-
     }
 
     @Test
@@ -32,7 +31,6 @@ public class BishopBlackTest {
         BishopBlack bishopBlack = new BishopBlack(Cell.D4);
         Cell dest = Cell.G6;
         Assert.assertFalse(bishopBlack.isDiagonal(bishopBlack.position(), dest));
-
     }
 
     @Test
